@@ -2,16 +2,16 @@ public class Main {
     public static void main (String[] args) {
         BmiService service = new BmiService();
 
-        int BodymassindexFatLow = service.calculate(105.4, 155);
-        System.out.println(BodymassindexFatLow);
+        int bodyMassIndexFatLow = service.calculate(105.4, 155);
+        System.out.println(bodyMassIndexFatLow);
 
-        int BodymassindexSkinnyLow = service.calculate(61.6, 161);
-        System.out.println(BodymassindexSkinnyLow);
+        int bodyMassIndexSkinnyLow = service.calculate(61.6, 161);
+        System.out.println(bodyMassIndexSkinnyLow);
 
-        int BodymassindexFatTall = service.calculate(100.0, 190);
-        System.out.println(BodymassindexFatTall);
+        int bodyMassIndexFatTall = service.calculate(100.0, 190);
+        System.out.println(bodyMassIndexFatTall);
 
-        int BodymassindexSkinnyTall = service.calculate(54.9, 183);
-        System.out.println(BodymassindexSkinnyTall);
+        int bodyMassIndexSkinnyTall = service.calculate(54.9, 183);
+        System.out.println(bodyMassIndexSkinnyTall);
     }
 }

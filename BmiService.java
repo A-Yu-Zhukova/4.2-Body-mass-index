@@ -1,7 +1,7 @@
 public class BmiService {
-    public int calculate (double weight, int growthinsm) {
-        double growthsquareinmetr = growthinsm * growthinsm / 100.0 / 100.0;
-        double index = weight / growthsquareinmetr;
+    public int calculate (double weight, int growthInSm) {
+        double growthSquareInMetr = growthInSm * growthInSm / 100.0 / 100.0;
+        double index = weight / growthSquareInMetr;
         return (int)index;
     }
 }
